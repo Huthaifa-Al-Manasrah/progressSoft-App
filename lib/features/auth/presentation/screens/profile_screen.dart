@@ -210,6 +210,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
                             },
                             child: const Text('Update')),
 
+                        const SizedBox(height: 20),
+
                         if(state is LoggingOut)
                           const LoadingWidget()
                         else if (state is LoggedOut)

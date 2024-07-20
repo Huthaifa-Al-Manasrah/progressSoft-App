@@ -44,5 +44,4 @@ The app uses the following packages:
 1. **Clone the repository:**
 
    ```
-   git clone https://github.com/Huthaifa-Al-Manasrah/progressSoft-app.git 
-   cd progresssoft_app_task
+   git clone https://github.com/Huthaifa-Al-Manasrah/progressSoft-App.git
