@@ -51,7 +51,7 @@ class SplashScreen extends StatelessWidget {
                   width: 250,
                   fit: BoxFit.fitWidth,
                 ),
-                const Text(COPY_RIGHT, textAlign: TextAlign.center)
+                const SafeArea(child: Text(COPY_RIGHT, textAlign: TextAlign.center))
               ],
             ),
           ),
