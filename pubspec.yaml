@@ -1,0 +1,49 @@
+name: progress_soft_app
+description: "Application Development Task."
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  bloc: ^8.1.4
+  shared_preferences: ^2.2.3
+  http: ^1.2.2
+  internet_connection_checker: ^1.0.0+1
+  get_it: ^7.7.0
+  flutter_bloc: ^8.1.6
+  flutter_svg: ^2.0.10+1
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  firebase_core: ^2.24.2
+  intl: ^0.19.0
+  intl_phone_number_input: ^0.7.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: fonts/cairo.ttf
+    - family: open Sans
+      fonts:
+        - asset: fonts/open_sans.ttf
